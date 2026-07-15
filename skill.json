@@ -1,0 +1,24 @@
+{
+  "name": "genpark-pgdog-zero-config-db-balancer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - PgDog read-write ratio database load routing balancer.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "database",
+    "balancer",
+    "pgdog"
+  ],
+  "inputs": {
+    "sql_statement": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "route_target": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
